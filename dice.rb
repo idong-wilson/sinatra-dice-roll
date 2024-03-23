@@ -14,6 +14,7 @@ get "/" do
   "<h1>Dice Roll</h1><ul>" + links.join + "</ul>"
 end
 
+
 get("/about") do
   "This is a dice game, my first Ruby App"
 end
